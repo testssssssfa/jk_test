@@ -3,7 +3,7 @@
 FROM openjdk:8
 MAINTAINER chao1234 <758163593@qq.com>
 
-#RUN apt-get update && apt-get install -y openssh-server && apt-get install sshpass
+RUN apt-get update && apt-get install -y openssh-server && apt-get install sshpass
 
 WORKDIR /home
 ENV PROFILE_ACTIVE dev
