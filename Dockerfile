@@ -4,7 +4,7 @@ FROM openjdk:8
 MAINTAINER chao1234 <758163593@qq.com>
 
 #RUN apt-get update && apt-get install -y openssh-server && apt-get install sshpass
-#test
+#test aa
 WORKDIR /home
 ENV PROFILE_ACTIVE dev
 ARG JAR_FILE
